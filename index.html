@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HEXAFLOWER</title>
+    <script type="text/javascript" src="./js/hexaflower.js"></script>
+    <script type="text/javascript" src="./js/audio-list.js"></script>
   </head>
   <body>
     <h3>HEXAFLOWER Site.</h3>
-  </body>
+    <script type="text/javascript">
+      button = document.createElement('button');
+      button.innerHTML = 'Helo.';
+      button.onclick = function(){
+        playAudioRandom(audio_list.audios, true, hidden = false);
+      };
+      document.body.appendChild(button);
+    </script>
+
 </html>
