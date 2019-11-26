@@ -1,5 +1,6 @@
 ignore/
 audios/
+temp/
 *temp*/
 images/hexaflower*
 serve.cmd
